@@ -12,5 +12,28 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
+    position: fixed;
+    bottom: 0%;
+    width: 100%
+}
+
+header{
+    background-color: darkslategrey;
+    color: white;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Right-head{
+    padding-right: 10%;
+}
+
+li + li{
+    margin-left: 15px;
+}
+
+.Left-head{
+    padding-left: 10%;
 }
