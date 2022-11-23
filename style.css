@@ -37,3 +37,27 @@ li + li{
 .Left-head{
     padding-left: 10%;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.first{
+    background-color: darkslategrey;
+    color: white;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.Left-side{
+    width: 200px;
+    padding-left: 10%;
+}
+
+.Right-side{
+    padding-right: 10%;
+}
